@@ -1,14 +1,32 @@
 <!DOCTYPE html>
+<!-- saved from url=(0046)https://semantic-ui.com/examples/homepage.html -->
 <html>
 <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <!-- Standard Meta -->
-  <meta charset="utf-8">
+  
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
   <!-- Site Properties -->
   <title>Homepage - Semantic</title>
-  <link rel="stylesheet" type="text/css" href="Semantic-UI-CSS/semantic.css">
+  <link rel="stylesheet" type="text/css" href="./Homepage - Semantic_files/reset.css">
+  <link rel="stylesheet" type="text/css" href="./Homepage - Semantic_files/site.css">
+
+  <link rel="stylesheet" type="text/css" href="./Homepage - Semantic_files/container.css">
+  <link rel="stylesheet" type="text/css" href="./Homepage - Semantic_files/grid.css">
+  <link rel="stylesheet" type="text/css" href="./Homepage - Semantic_files/header.css">
+  <link rel="stylesheet" type="text/css" href="./Homepage - Semantic_files/image.css">
+  <link rel="stylesheet" type="text/css" href="./Homepage - Semantic_files/menu.css">
+
+  <link rel="stylesheet" type="text/css" href="./Homepage - Semantic_files/divider.css">
+  <link rel="stylesheet" type="text/css" href="./Homepage - Semantic_files/dropdown.css">
+  <link rel="stylesheet" type="text/css" href="./Homepage - Semantic_files/segment.css">
+  <link rel="stylesheet" type="text/css" href="./Homepage - Semantic_files/button.css">
+  <link rel="stylesheet" type="text/css" href="./Homepage - Semantic_files/list.css">
+  <link rel="stylesheet" type="text/css" href="./Homepage - Semantic_files/icon.css">
+  <link rel="stylesheet" type="text/css" href="./Homepage - Semantic_files/sidebar.css">
+  <link rel="stylesheet" type="text/css" href="./Homepage - Semantic_files/transition.css">
 
   <style type="text/css">
 
@@ -100,8 +118,10 @@
 
   </style>
 
-  <script src="assets/library/jquery.min.js"></script>
-  <script type="text/javascript" src="Semantic-UI-CSS/components/semantic.js"></script>
+  <script src="./Homepage - Semantic_files/jquery.min.js.ดาวน์โหลด"></script>
+  <script src="./Homepage - Semantic_files/visibility.js.ดาวน์โหลด"></script>
+  <script src="./Homepage - Semantic_files/sidebar.js.ดาวน์โหลด"></script>
+  <script src="./Homepage - Semantic_files/transition.js.ดาวน์โหลด"></script>
   <script>
   $(document)
     .ready(function() {
@@ -132,51 +152,52 @@
 
 <!-- Following Menu -->
 <div class="ui large top fixed hidden menu">
-    <div class="ui container">
-        <a class="active item">Home</a>
-        <a class="item">Work</a>
-        <a class="item">Company</a>
-        <a class="item">Careers</a>
-        <div class="right menu">
-            <div class="item">
-                <a class="ui button">Log in</a>
-            </div>
-            <div class="item">
-                <a class="ui primary button">Sign Up</a>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- Sidebar Menu -->
-<div class="ui vertical inverted sidebar menu left">
+  <div class="ui container">
     <a class="active item">Home</a>
     <a class="item">Work</a>
     <a class="item">Company</a>
     <a class="item">Careers</a>
-    <a class="item">Login</a>
-    <a class="item">Signup</a>
+    <div class="right menu">
+      <div class="item">
+        <a class="ui button">Log in</a>
+      </div>
+      <div class="item">
+        <a class="ui primary button">Sign Up</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Sidebar Menu -->
+<div class="ui vertical inverted sidebar menu left" style="">
+  <a class="active item">Home</a>
+  <a class="item">Work</a>
+  <a class="item">Company</a>
+  <a class="item">Careers</a>
+  <a class="item">Login</a>
+  <a class="item">Signup</a>
 </div>
 
 
 <!-- Page Contents -->
 <div class="pusher">
-    <div class="ui inverted vertical masthead center aligned segment">
-        <div class="ui container">
-            <div class="ui large secondary inverted pointing menu">
-                <a class="toc item">
-                    <i class="sidebar icon"></i>
-                </a>
-                <a class="active item">Home</a>
-                <a class="item">Work</a>
-                <a class="item">Company</a>
-                <a class="item">Careers</a>
-                <div class="right item">
-                    <a class="ui inverted button">Log in</a>
-                    <a class="ui inverted button">Sign Up</a>
-                </div>
-            </div>
+  <div class="ui inverted vertical masthead center aligned segment">
+
+    <div class="ui container">
+      <div class="ui large secondary inverted pointing menu">
+        <a class="toc item">
+          <i class="sidebar icon"></i>
+        </a>
+        <a class="active item">Home</a>
+        <a class="item">Work</a>
+        <a class="item">Company</a>
+        <a class="item">Careers</a>
+        <div class="right item">
+          <a class="ui inverted button">Log in</a>
+          <a class="ui inverted button">Sign Up</a>
         </div>
+      </div>
+    </div>
 
     <div class="ui text container">
       <h1 class="ui inverted header">
@@ -198,7 +219,7 @@
           <p>Yes that's right, you thought it was the stuff of dreams, but even bananas can be bioengineered.</p>
         </div>
         <div class="six wide right floated column">
-          <img src="assets/images/wireframe/white-image.png" class="ui large bordered rounded image">
+          <img src="./Homepage - Semantic_files/white-image.png" class="ui large bordered rounded image">
         </div>
       </div>
       <div class="row">
@@ -220,7 +241,7 @@
         <div class="column">
           <h3>"I shouldn't have gone with their competitor."</h3>
           <p>
-            <img src="assets/images/avatar/nan.jpg" class="ui avatar image"> <b>Nan</b> Chief Fun Officer Acme Toys
+            <img src="./Homepage - Semantic_files/nan.jpg" class="ui avatar image"> <b>Nan</b> Chief Fun Officer Acme Toys
           </p>
         </div>
       </div>
@@ -233,7 +254,7 @@
       <p>Instead of focusing on content creation and hard work, we have learned how to master the art of doing nothing by providing massive amounts of whitespace and generic content that can seem massive, monolithic and worth your attention.</p>
       <a class="ui large button">Read More</a>
       <h4 class="ui horizontal header divider">
-        <a href="#">Case Studies</a>
+        <a href="https://semantic-ui.com/examples/homepage.html#">Case Studies</a>
       </h4>
       <h3 class="ui header">Did We Tell You About Our Bananas?</h3>
       <p>Yes I know you probably disregarded the earlier boasts as non-sequitur filler content, but its really true. It took years of gene splicing and combinatory DNA research, but our bananas can really dance.</p>
@@ -248,19 +269,19 @@
         <div class="three wide column">
           <h4 class="ui inverted header">About</h4>
           <div class="ui inverted link list">
-            <a href="#" class="item">Sitemap</a>
-            <a href="#" class="item">Contact Us</a>
-            <a href="#" class="item">Religious Ceremonies</a>
-            <a href="#" class="item">Gazebo Plans</a>
+            <a href="https://semantic-ui.com/examples/homepage.html#" class="item">Sitemap</a>
+            <a href="https://semantic-ui.com/examples/homepage.html#" class="item">Contact Us</a>
+            <a href="https://semantic-ui.com/examples/homepage.html#" class="item">Religious Ceremonies</a>
+            <a href="https://semantic-ui.com/examples/homepage.html#" class="item">Gazebo Plans</a>
           </div>
         </div>
         <div class="three wide column">
           <h4 class="ui inverted header">Services</h4>
           <div class="ui inverted link list">
-            <a href="#" class="item">Banana Pre-Order</a>
-            <a href="#" class="item">DNA FAQ</a>
-            <a href="#" class="item">How To Access</a>
-            <a href="#" class="item">Favorite X-Men</a>
+            <a href="https://semantic-ui.com/examples/homepage.html#" class="item">Banana Pre-Order</a>
+            <a href="https://semantic-ui.com/examples/homepage.html#" class="item">DNA FAQ</a>
+            <a href="https://semantic-ui.com/examples/homepage.html#" class="item">How To Access</a>
+            <a href="https://semantic-ui.com/examples/homepage.html#" class="item">Favorite X-Men</a>
           </div>
         </div>
         <div class="seven wide column">
@@ -275,5 +296,4 @@
 
 
 
-</body>
-</html>
+</body></html>
