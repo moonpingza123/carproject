@@ -7,9 +7,6 @@
 
 	  <title>Fixed Menu Example - Semantic</title>
 	  <link rel="stylesheet" type="text/css" href="Semantic-UI-CSS/semantic.css">
-
-	  
-	  
 	  <style type="text/css">
 	  <head>
   	  </style>
