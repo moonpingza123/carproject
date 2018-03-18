@@ -74,6 +74,14 @@
     .secondary.pointing.menu .toc.item {
       display: none;
     }
+    .ui.green1.sidebar.menu {
+        background-color: #53c68c;
+        color: #FFFFFF;
+      }
+    .ui.green1.segment {
+        background-color: #53c68c;
+        color: #FFFFFF;
+      }
 
     @media only screen and (max-width: 700px) {
       .ui.fixed.menu {
@@ -135,8 +143,8 @@
 
 
 <!-- Sidebar Menu -->
-<div class="ui vertical inverted sidebar menu left" style="background-color:#53c68c;">
-  <a class="active item">1111</a>
+<div class="ui vertical inverted green1 sidebar menu left" >
+  <a class="active item">Home</a>
   <a class="item">Work</a>
   <a class="item">Company</a>
   <a class="item">Careers</a>
@@ -147,39 +155,44 @@
 
 <!-- Page Contents -->
 <div class="pusher">
-  <div class="ui inverted vertical masthead center aligned segment" style="background-color:#53c68c;">
 
-    <div class="ui container">
-      <div class="ui large secondary inverted pointing menu" >
-        <a class="toc item">
-          <i class="sidebar icon"></i>
-        </a>
-        <a class="active item">2222</a>
-        <a class="item">Work</a>
-        <a class="item">Company</a>
-        <a class="item">Careers</a>
-        <div class="right item">
-          <a class="ui inverted button">Log in</a>
-          <a class="ui inverted button">Sign Up</a>
+    <div class="ui inverted center green1 segment" >
+        <div class="ui container">
+            <div class="ui large secondary inverted pointing menu" >
+                
+                <a class="toc item">
+                    <i class="sidebar icon"></i>
+                </a>
+                <a class="active item">Home</a>
+                
+                <div class="right item">
+                    <a class="item">Work</a>
+                    <a class="item">Company</a>
+                    <a class="item">Careers</a>
+                    <i class=" icons">
+                        <i class="black big thin circle icon"></i>
+                        <i class="user icon"></i>
+                    </i>
+                    <a class="ui red button">สมัครใช้งาน</a>
+                    <a class="ui primary button">ลงชื่อเข้าใช้</a>
+                </div>
+            </div>
         </div>
-      </div>
     </div>
-  </div>
+
     <div class="ui text container">
-      <h1 class="ui inverted header">
-        1111Imagine-a-Company
-      </h1>
-      <h2>Do whatever you want when you want to.</h2>
-      <div class="ui huge primary button">Get Started <i class="right arrow icon"></i></div>
+        <h1 class="ui inverted header">Imagine-a-Company</h1>
+        <h2>Do whatever you want when you want to.</h2>
+        <div class="ui huge primary button">Get Started <i class="right arrow icon"></i></div>
     </div>
 
   
 
-  <div class="ui vertical stripe segment">
-    <div class="ui middle aligned stackable grid container">
-      <div class="row">
-        <div class="eight wide column">
-          <h3 class="ui header">We Help Companies and Companions</h3>
+    <div class="ui vertical stripe segment">
+        <div class="ui middle aligned stackable grid container">
+            <div class="row">
+                <div class="eight wide column">
+                    <h3 class="ui header">We Help Companies and Companions</h3>
           <p>We can give your company superpowers to do things that they never thought possible. Let us delight your customers and empower your needs...through pure data analytics.</p>
           <h3 class="ui header">We Make Bananas That Can Dance</h3>
           <p>Yes that's right, you thought it was the stuff of dreams, but even bananas can be bioengineered.</p>
