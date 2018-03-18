@@ -75,11 +75,16 @@
       .ui.green1.sidebar.menu {
           background-color: #53c68c;
           color: #FFFFFF;
-        }
+      }
       .ui.green1.segment {
           background-color: #53c68c;
           color: #FFFFFF;
-        }
+      }
+      .ui.green1.footer.segment {
+          background-color: #53c68c;
+          color: #FFFFFF;
+      }
+
 
       @media only screen and (max-width: 700px) {
         .ui.fixed.menu {
@@ -174,92 +179,129 @@
         </div>
     </div>
 
-    <div class="ui text container">
-        <h1 class="ui inverted header">Imagine-a-Company</h1>
-        <h2>Do whatever you want when you want to.</h2>
-        <div class="ui huge primary button">Get Started <i class="right arrow icon"></i></div>
-    </div>
-
-  
-
-    <div class="ui vertical stripe segment">
-        <div class="ui middle aligned stackable grid container">
-            <div class="row">
-                <div class="eight wide column">
-                    <h3 class="ui header">We Help Companies and Companions</h3>
-                    <p>We can give your company superpowers to do things that they never thought possible. Let us delight your customers and empower your needs...through pure data analytics.</p>
-                    <h3 class="ui header">We Make Bananas That Can Dance</h3>
-                    <p>Yes that's right, you thought it was the stuff of dreams, but even bananas can be bioengineered.</p>
-                </div>
-                <div class="six wide right floated column">
-                    <img src="./Homepage - Semantic_files/white-image.png" class="ui large bordered rounded image">
-                </div>
+    <div class="ui container">
+        <div class="ui two column stackable grid container">
+            <div class="eleven wide column">
+                <h2 class="blue ui header"><i class="black car icon"></i>CarJaidee.com     Hotline 1100</h2>
+                <p>Pay for just the miles you  drive. Find and access vehicles via your smartphone</p>
             </div>
-            <div class="row">
-                <div class="center aligned column">
-                    <a class="ui huge button">Check Them Out</a>
-                </div>
+            <div class="four wide column ">
+                <button class="inverted blue ui huge right floated button ">คำนวณค่าใช้จ่าย</button>
             </div>
         </div>
     </div>
 
+    <div class="ui container">
+        <img class="ui fluid image"  src="img/map.jpg">
+    </div><br>
 
-    <div class="ui vertical stripe quote segment">
-        <div class="ui equal width stackable internally celled grid">
-            <div class="center aligned row">
-                <div class="column">
-                    <h3>"What a Company"</h3>
-                    <p>That is what they all say about us</p>
+    <div class="ui container">        
+        <div class="ui huge action input" >
+            <input type="text huge" placeholder="Search for a car in town, postcode etc." style="width: 550px;">
+            <button class="ui button big" style="background-color:#ff471a; color:#FFFFFF";>
+            <i class="search icon "></i>ค้นหา</button>
+            <div class="or" ></div>
+            <button class="ui button big" style="background-color:#53c68c; color:#FFFFFF";>
+            <i class="crosshairs icon"></i>ค้นหาอู่ใกล้เคียง</button>
+        </div>
+    </div><br>
+
+    <div >
+        <h1 class="ui horizontal header divider container"><a>ง่ายๆใน 3 ขั้นตอน</a></h1>
+    </div><br>
+
+    <div class="ui container">
+        <div class="ui three column stackable grid">
+            <div class="column">
+                <div class="ui card ">
+                    <div class="image">
+                      <img src="img/car.png">
+                    </div>
+                    <div class="content">
+                        <a class="header">อู่ใกล้บ้าน</a>
+                    </div>
                 </div>
-                <div class="column">
-                    <h3>"I shouldn't have gone with their competitor."</h3>
-                    <p>
-                        <img src="./Homepage - Semantic_files/nan.jpg" class="ui avatar image"> <b>Nan</b> Chief Fun Officer Acme Toys
-                    </p>
+            </div>
+            <div class="column">
+                <div class="ui card">
+                    <div class="image">
+                        <img src="img/chat.jpg">
+                    </div>
+                    <div class="content">
+                        <a class="header">เลือกบริการ</a>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="ui card">
+                    <div class="image">
+                        <img src="img/dollar.png">
+                    </div>
+                    <div class="content">
+                        <a class="header">ตกลงราคา</a>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
+    </div><br>
 
-    <div class="ui vertical stripe segment">
-        <div class="ui text container">
-            <h3 class="ui header">Breaking The Grid, Grabs Your Attention</h3>
-            <p>Instead of focusing on content creation and hard work, we have learned how to master the art of doing nothing by providing massive amounts of whitespace and generic content that can seem massive, monolithic and worth your attention.</p>
-            <a class="ui large button">Read More</a>
-            <h4 class="ui horizontal header divider">
-                <a href="https://semantic-ui.com/examples/homepage.html#">Case Studies</a>
-            </h4>
-            <h3 class="ui header">Did We Tell You About Our Bananas?</h3>
-            <p>Yes I know you probably disregarded the earlier boasts as non-sequitur filler content, but its really true. It took years of gene splicing and combinatory DNA research, but our bananas can really dance.</p>
-            <a class="ui large button">I'm Still Quite Interested</a>
-        </div>
-    </div>
-
-
-    <div class="ui inverted vertical footer segment">
+    <div class="ui inverted vertical footer segment" style="background-color:#e0e0d1;">
         <div class="ui container">
             <div class="ui stackable inverted divided equal height stackable grid">
-                <div class="three wide column">
-                    <h4 class="ui inverted header">About</h4>
-                    <div class="ui inverted link list">
-                        <a href="https://semantic-ui.com/examples/homepage.html#" class="item">Sitemap</a>
-                        <a href="https://semantic-ui.com/examples/homepage.html#" class="item">Contact Us</a>
-                        <a href="https://semantic-ui.com/examples/homepage.html#" class="item">Religious Ceremonies</a>
-                        <a href="https://semantic-ui.com/examples/homepage.html#" class="item">Gazebo Plans</a>
+                <div class="four wide column">
+                    <div class="image">
+                      <img class="ui tiny image" src="img/freelogo.png">
+                      <img class="ui tiny image" src="img/freelogo.png">
+                      <img class="ui tiny image" src="img/freelogo.png">
+                      <img class="ui tiny image" src="img/freelogo.png">
                     </div>
                 </div>
-                <div class="three wide column">
-                    <h4 class="ui inverted header">Services</h4>
-                    <div class="ui inverted link list">
-                        <a href="https://semantic-ui.com/examples/homepage.html#" class="item">Banana Pre-Order</a>
-                        <a href="https://semantic-ui.com/examples/homepage.html#" class="item">DNA FAQ</a>
-                        <a href="https://semantic-ui.com/examples/homepage.html#" class="item">How To Access</a>
-                        <a href="https://semantic-ui.com/examples/homepage.html#" class="item">Favorite X-Men</a>
+                <div class="four wide column">
+                    <div class="image">
+                      <img class="ui tiny image" src="img/freelogo.png">
+                      <img class="ui tiny image" src="img/freelogo.png">
+                      <img class="ui tiny image" src="img/freelogo.png">
+                      <img class="ui tiny image" src="img/freelogo.png">
                     </div>
                 </div>
-                <div class="seven wide column">
-                    <h4 class="ui inverted header">Footer Header</h4>
-                    <p>Extra space for a call to action inside the footer that could help re-engage users.</p>
+                <div class="five wide column">
+                    <div class="image">
+                        <img class="ui Large right floated image" src="img/freevideo.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="ui inverted vertical green1 footer segment">
+        <div class="ui container">
+            <div class="ui stackable inverted divided equal height stackable grid">
+                <div class="four wide column">
+                    <h4 class="ui inverted header">เกี่ยวกับเรา</h4>
+                    <div class="ui inverted link list">
+                      <a href="#" class="item">ไซต์แมป</a>
+                      <a href="#" class="item">ติดต่อเรา</a>
+                    </div>
+                </div>
+                <div class="four wide column">
+                    <h4 class="ui inverted header">บริการ</h4>
+                    <div class="ui inverted link list">
+                      <a href="#" class="item">อู่รถยนตร์</a>
+                      <a href="#" class="item">ช่างซ่อม</a>
+                      <a href="#" class="item">นัดหมาย</a>
+                      <a href="#" class="item">ครังอะไหล่</a>
+
+                    </div>
+                </div>
+                <div class="five wide column">
+                    <h4 class="ui inverted header">ที่อยู่</h4>
+                    <div class="ui inverted link list">
+                      <a href="#" class="item ">Tel 083000000</a>
+                      <a href="#" class="item"><i class="facebook icon blue"></i>Carjaidee</a>
+                      <a href="#" class="item"><i class="twitter icon teal"></i>Twitter</a>
+                      <a href="#" class="item"><i class="google plus icon red"></i>Mail</a>
+                      <a href="#" class="item"><i class="youtube icon red"></i>Youtube</a>
+                    </div>
                 </div>
             </div>
         </div>
